@@ -1,0 +1,49 @@
+Bella Willoughby
+Ally Senger
+
+FIND_ERRORS
+1. Add images into my images file
+2. Add <!DOCTYPE html>
+3. Language=en should be in the html tag above the head tag and should be lang not language
+4. Add  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error-Filled Page</title>
+    into the head tag
+5. close <h/1> on line 12
+6.open <p> on line 14
+7. change </li>Item 6</li> on line 22 to <li>Item 6</li>
+8. change</ul> to </ol> on line 27 to match the opening <ol> tag on line 16
+9. close the paragraph on line 29 </p>
+10. Change the link to the image to "../img/image.jpg" on line 31
+11. On line 33 add in the whole repo link: "https://sarahstonehocker.github.io/SarahStonehocker/html_midterm/find_errors_2.html
+12. On line 30, close </a>
+13. Get rid of the </img> tag on line 33
+14. Close the </td> on line 39
+15. close the table on line 48 </table>
+16. turn image source into img src on line 50
+17. Change image link to "../img/error.jpg" on line 50 
+18. On line 52 add the <s></s> tags around "This is a paragraph with strikethrough text" 
+19. change line 54 using using the style attribute to make the background color valid: <p style="background-color: lightgray;">Text</p>
+20. Uncomment what is commented by using ctrl /
+21. add a </a> tag on line 58
+22. on line 60 the paragraph should be closed after the em tag, not before it: <p><em>Underlined text</em></p>
+23. change <li></li> to <dt></dt> because it is a descriptive title and not a table on line 63
+24. change <li></li> to <dd></dd> because it is descriptive text and not a table on line 64
+25. get rid of the <h3> opening tag on line 66 after "Hello World" and just put a closing </h2>
+ 
+ find_errors_2
+ 1. open the <html> tag below the Doctype
+ 2. put lang=en in html opening tag
+ 3. put a closing </head> tag after thetitle
+ 4. Add a > on line 7 after the <body
+ 5. add an 'l' after the html on line 19
+ 6. add a </strong> closing tag on line 11
+ 7. add a </p> closing tag on line 11
+ 8. change href to src 
+ 9. add an alt line on line 13
+ 10. add an opening <h2> tag on line 15
+ 11. add on opening <p> tag on line 17
+ 12. make 'this is a comment' into a comment:  <!-- <this is a comment> -->
+ 13. make the image line "../img/image_2.jpg" on line 13
+ 14. add a closing </div> tag on line 18
+ 15. 
