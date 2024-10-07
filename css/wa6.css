@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin: 20px;
+}
+
+.overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.7); /* Black with opacity */
+  z-index: 1; /* Sit on top */
+}
+
+.overlay-content {
+  position: absolute; /* Position the content */
+  top: 50%; /* Center the content vertically */
+  left: 50%; /* Center the content horizontally */
+  transform: translate(-50%, -50%); /* Adjust for content size */
+  color: white;
+  text-align: center;
+}
+
