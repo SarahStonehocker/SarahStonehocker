@@ -5,14 +5,16 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg"];
+const images = ["dog1.jpeg", "dog2.jpeg", "dog3.jpeg", "dog4.jpeg", "dog5.jpeg"];
 
 /* Declaring the alternative text for each image file */
 const alts = {
-  "pic1.jpg" : "eye",
-  "pic2.jpg" : "Rock",
-  "pic3.jpg" : "flowers",
-  "pic4.jpg" : "tomb"
+  "dog1.jpeg" : "golden retriever",
+  "dog2.jpeg" : "German Shepard",
+  "dog3.jpeg" : "Black Dog",
+  "dog4.jpeg" : "Great Pyranses",
+  "dog5.jpeg" : "lab Puppy"
+
   
 }
 
