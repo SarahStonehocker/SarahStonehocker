@@ -1,0 +1,289 @@
+    /*Main Page*/
+    body{
+        background-color: rgb(172, 185, 211);
+        margin: 0;
+        padding-bottom: 500px;
+    }
+    
+        /*Nav Bar*/
+    Nav{
+        border: none;
+        background-color: rgb(118, 140, 182);
+        padding: 30px;
+        position: sticky;
+        top:0;
+        z-index: 1;
+        
+    }
+    
+    button{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 0px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        /* float: center; */
+        text-align: right;
+    }
+    /*Link hover*/
+    button:hover{
+        background-color: #717171;
+        
+    }
+       /*About Me Page*/
+    #about {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        align-items: center; 
+        column-gap: 20px; 
+        padding: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    #about h1, 
+    #about h2, 
+    #about p {
+        margin: 20px; 
+    }
+    
+    #about .text-box {
+        grid-column: 1; 
+        border: none; 
+        padding: 20px; 
+        /* border-radius: 10px;  */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        background-color: #f9f9f9; 
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    #about img {
+        grid-column: 2; 
+        width: 100%;
+
+        max-width: 300px; 
+        /* border-radius: 10px;  */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 0px;
+        justify-self: center; 
+        border: none;
+        box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    /*Project Page Links/Options*/
+    #projects{
+        display: flex;
+        flex-direction: column;
+        margin:10vh 20vw;
+    }
+    
+    #projects a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    .project:hover{
+        background-color: #919191;
+    }
+    
+    .project{
+        display:flex;
+        flex-direction: row;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px 20px;
+        column-gap: 10px;
+        background-color:rgb(255, 255, 255);
+    }
+    
+    .project img{
+        width:20vw;
+    }
+    
+            /*Filter*/
+     /* Container for the dropdown */
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        margin: 20px;
+        left: 80%;
+    }
+    
+    /* Dropdown button styling */
+    .dropdown-button {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    /* Dropdown content styling */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    /* Items inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    /* Change color on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+    
+    /* Show the dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    /* Change button color on hover */
+    .dropdown:hover .dropdown-button {
+        background-color: #6b6b6b;
+    }
+     
+        /*Project Pages*/
+    
+    .proj {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        align-items: center; 
+        column-gap: 100px; 
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    
+    #project .text {
+        grid-column: 1; 
+        margin:0px;
+        border: 2px solid black; 
+        padding: 20px; 
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        background-color: #f9f9f9; 
+    }
+    
+    #project .title{
+        font-size: 2.5em;
+    }
+    
+    #project .h2{
+        padding: 10px;
+    }
+    
+     #project h2, #project p {
+        margin: 10px;
+    }
+    
+    .proj {
+        max-width: 1200px; 
+        margin: 20px; 
+    }
+    
+    /*Project Image Carousel*/
+    #carousel-container {
+        max-width: 1000px;
+        position: relative;
+        margin: 0;
+      }
+      
+      /* Hide the images by default */
+      .carousel-item {
+        display: none;
+      }
+      
+      #carousel{
+        text-align:center;
+        padding: 20px;
+        height: 200px;
+      }
+    
+    .img-carousel{
+        max-height: 400px;
+        border: 30px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        background-color: rgb(239, 235, 231);
+    }
+        /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 80%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+      
+    .prev{
+        left: 40%;
+        margin-left: -250px;
+    }
+    
+    .next {
+        margin-right: -310px;
+        right: 40%;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+    
+    /*About Me Page*/
+    .about{
+        margin: 80px;
+    
+    }
+    
+    .aboutp{
+        border:none;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+    
+    }
+    .contacts{
+        border:none;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    /*Resume*/
+    .imgcontainer {
+        display: flex;              
+        justify-content: center;    
+        align-items: center;       
+        height: 100%;              
+        width: 100%;                
+        position: relative;       
+      }
+      
+      .resume {
+        width: 50%;    
+        height: auto;  
+        display: block; 
+      }
+      
+    
