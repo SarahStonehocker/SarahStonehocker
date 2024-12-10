@@ -1,0 +1,38 @@
+{
+	"projects": [{
+			"name": "Synthesize, Sketch, Critique",
+			"subdomain": "Synthezie-Sketch-Critique",
+			"subtitle": "Sticker Design for Atlas Lab 'Emergent NanoMaterials'",
+			"abstract": "A sticker design for the Labratory of Emergent NanoMaterials based off of a decade: The 80s. Made on Adobe Illustrator. ",
+			"video": ["False"],
+			"images": ["port (1).jpg"],
+			"published": ["True","1"],
+			"citations": [["Sarah Stonehocker"]]
+			
+	},{"name": "Non Carbonated Energy Drink",
+			"subdomain": "non-carbonated",
+			"subtitle": "A mockup desing of a non-carbonated drink",
+			"abstract": "Mockup design made using Adobe Iluustrator and Art-Board Studio",
+			"mainimg": "port (2).png",
+			"video": ["False"],
+			"images": ["port (2).png"],
+			"published": ["True","1"],
+			"citations": [["Sarah Stonehocker"]]
+
+	},{
+			"name": "Personal Logo",
+			"subdomain": "personal-logo",
+			"subtitle": "Personal logo made based of style likes and personality",
+			"abstract": "Made in Adobe Illustrator to create a logo for my personal brand",
+			"mainimg": "port (3).png",
+			"video": ["False"],
+			"images": ["port (3).png"],
+			"published": ["True","1"],
+			"citations": [["Sarah Stonehocker"]]
+
+		}
+		]
+
+
+
+	}

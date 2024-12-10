@@ -14,6 +14,7 @@
         top:0;
         z-index: 1;
         
+        
     }
     
     button{
@@ -25,12 +26,11 @@
         cursor: pointer;
         border-radius: 0px;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        /* float: center; */
-        text-align: right;
+       
     }
     /*Link hover*/
     button:hover{
-        background-color: #717171;
+        background-color: #ACB9D3;
         
     }
        /*About Me Page*/
@@ -258,14 +258,14 @@
     
     .aboutp{
         border:none;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         background-color: #ffffff;
         padding: 20px;
     
     }
     .contacts{
         border:none;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         background-color: #ffffff;
         padding: 20px;
     }
